@@ -1,0 +1,230 @@
+{
+  "students" : [
+    {
+      "student": "Врублёвский Иван",
+      "points": "0",
+      "skype": "live:cff9ba72bc16fab8"
+    },
+    {
+      "student": "Шестаков Роман",
+      "points": "0",
+      "skype": "live:ff480fca6887e29c"
+    },
+    {
+      "student": "Пономарёв Артём",
+      "points": "0",
+      "skype": "j_jordison"
+    },
+    {
+      "student": "Мартыненко Марк",
+      "points": "0",
+      "skype": "live:6fb80264a4aca1df"
+    },
+    {
+      "student": "Бойко Ирина",
+      "points": "0",
+      "skype": "live:irka.syr"
+    },
+    {
+      "student": "Макаров Артём",
+      "points": "0",
+      "skype": "makarov_artyom"
+    },
+    {
+      "student": "Каракулько Максим",
+      "points": "0",
+      "skype": "live:maksstinger"
+    },
+    {
+      "student": "Герасимович Максим",
+      "points": "0",
+      "skype": "maksger1806"
+    },
+    {
+      "student": "Жук Роман",
+      "points": "0",
+      "skype": "live:roma.zhuk.2014_1"
+    },
+    {
+      "student": "Леонтьев Владимир",
+      "points": "0",
+      "skype": "lyolik281281"
+    },
+    {
+      "student": "Зеленкова Дарья",
+      "points": "0",
+      "skype": "live:hubscheratte25"
+    },
+    {
+      "student": "Матвеев Николай",
+      "points": "0",
+      "skype": "genocide666999"
+    },
+    {
+      "student": "Котович Сергей",
+      "points": "0",
+      "skype": "vitaminov16"
+    }
+  ],
+
+  "materials" : [
+    {
+      "name": "Lection 1",
+      "type": "lection",
+      "point": "0",
+      "link": "https://github.com/paawel/training/blob/master/fd2_pvt/01/00.md"
+    },
+    {
+      "name": "Homework 1",
+      "type": "homework",
+      "point": "0",
+      "link": "https://github.com/paawel/training/blob/master/fd2_pvt/01/homework/hw.md"
+    },
+    {
+      "name": "Lection 2",
+      "type": "lection",
+      "point": "0",
+      "link": "https://github.com/paawel/training/blob/master/fd2_pvt/01/00.md"
+    },
+    {
+      "name": "Homework 2",
+      "type": "homework",
+      "point": "0",
+      "link": "https://github.com/paawel/training/blob/master/fd2_pvt/01/homework/hw.md"
+    },
+    {
+      "name": "Lection 3",
+      "type": "lection",
+      "point": "0",
+      "link": "https://github.com/paawel/training/blob/master/fd2_pvt/01/00.md"
+    },
+    {
+      "name": "Homework 3",
+      "type": "homework",
+      "point": "0",
+      "link": "https://github.com/paawel/training/blob/master/fd2_pvt/01/homework/hw.md"
+    },
+    {
+      "name": "Lection 4",
+      "type": "lection",
+      "point": "0",
+      "link": "https://github.com/paawel/training/blob/master/fd2_pvt/01/00.md"
+    },
+    {
+      "name": "Homework 4",
+      "type": "homework",
+      "point": "0",
+      "link": "https://github.com/paawel/training/blob/master/fd2_pvt/01/homework/hw.md"
+    },
+    {
+      "name": "Lection 5",
+      "type": "lection",
+      "point": "0",
+      "link": "https://github.com/paawel/training/blob/master/fd2_pvt/01/00.md"
+    },
+    {
+      "name": "Homework 5",
+      "type": "homework",
+      "point": "0",
+      "link": "https://github.com/paawel/training/blob/master/fd2_pvt/01/homework/hw.md"
+    },
+    {
+      "name": "Lection 6",
+      "type": "lection",
+      "point": "0",
+      "link": "https://github.com/paawel/training/blob/master/fd2_pvt/01/00.md"
+    },
+    {
+      "name": "Lection 7",
+      "type": "lection",
+      "point": "0",
+      "link": "https://github.com/paawel/training/blob/master/fd2_pvt/01/homework/hw.md"
+    },
+    {
+      "name": "Homework 7",
+      "type": "homework",
+      "point": "0",
+      "link": "https://github.com/paawel/training/blob/master/fd2_pvt/01/00.md"
+    },
+    {
+      "name": "Lection 8",
+      "type": "lection",
+      "point": "0",
+      "link": "https://github.com/paawel/training/blob/master/fd2_pvt/01/00.md"
+    },
+    {
+      "name": "Lection 9",
+      "type": "lection",
+      "point": "0",
+      "link": "https://github.com/paawel/training/blob/master/fd2_pvt/01/homework/hw.md"
+    },
+    {
+      "name": "Homework 9",
+      "type": "homework",
+      "point": "0",
+      "link": "https://github.com/paawel/training/blob/master/fd2_pvt/01/homework/hw.md"
+    },
+    {
+      "name": "Lection 10",
+      "type": "lection",
+      "point": "0",
+      "link": "https://github.com/paawel/training/blob/master/fd2_pvt/01/00.md"
+    },
+    {
+      "name": "Homework 10",
+      "type": "homework",
+      "point": "0",
+      "link": "https://github.com/paawel/training/blob/master/fd2_pvt/01/homework/hw.md"
+    },
+    {
+      "name": "Lection 11",
+      "type": "lection",
+      "point": "0",
+      "link": "https://github.com/paawel/training/blob/master/fd2_pvt/01/homework/hw.md"
+    },
+    {
+      "name": "Homework 11",
+      "type": "homework",
+      "point": "0",
+      "link": "https://github.com/paawel/training/blob/master/fd2_pvt/01/homework/hw.md"
+    },
+    {
+      "name": "Lection 12",
+      "type": "lection",
+      "point": "0",
+      "link": "https://github.com/paawel/training/blob/master/fd2_pvt/01/00.md"
+    },
+    {
+      "name": "Lection 13",
+      "type": "lection",
+      "point": "0",
+      "link": "https://github.com/paawel/training/blob/master/fd2_pvt/01/homework/hw.md"
+    },
+    {
+      "name": "Lection 14",
+      "type": "lection",
+      "point": "0",
+      "link": "https://github.com/paawel/training/blob/master/fd2_pvt/01/homework/hw.md"
+    }
+  ],
+
+  "news": [
+    {
+      "title":"На карте II Европейских игр неправильно изобразили Израиль. Министр спорта обратится к Лукашенко",
+      "image": "img/israel-euro-games-2019-123.jpg",
+      "info": "На официальном сайте 2 Европейских игр, которые пройдут 21−30 июня в Минске, стали появляться ролики, представляющие страны-участницы, их достижения на 1 Европейских играх, которые прошли в Баку в 2015 году, а также на Олимпиадах. С роликом, представляющим Израиль, не все так просто, сообщает newsru.co.il.",
+      "link": "https://sport.tut.by/news/aboutsport/638821.html"
+    },
+    {
+      "title": "ЛСП планирует собрать «Дримлэнд» на II Европейских играх",
+      "image": "img/lsp_minsk_arena_20190323_sdm_tutby_phsl_img-9364.jpg",
+      "link": "https://afisha.tut.by/news/anews/638282.html"
+    },
+    {
+      "title": "Туристов, приехавших на II Европейские игры, в аэропорту будут сканировать медицинским тепловизором",
+      "image": "img/spottery_aeroport_belavia_06052016_tutby_brush_phsl_-6087.jpg",
+      "link": "https://news.tut.by/society/637370.html"
+    }
+  ]
+
+}

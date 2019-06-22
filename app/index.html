@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/libs.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Title</title>
+</head>
+<body class="body">
+<div class="header">
+    <h3>Students list</h3>
+    <button id="addStudent">Add Student</button>
+    <button id="addLection">Add Lection</button>
+    <button id="addHomework">Add Homework</button>
+    <button id="showNews">News</button>
+    <input type="text" id="color" placeholder="Choose Color"/>
+
+    <div class="header_studentModalWindow" id="header_studentModalWindow">
+        <div class="box-modal" id="exampleModal_1">
+            <div class="box-modal_close arcticmodal-close">close</div>
+            <form method="post" action="">
+                <input id="student_name" type="text" name="yourname" placeholder="Your Name">
+                <input id="student_skype" type="text" name="yourSkype" placeholder="Your Skype">
+                <button type="button" id="sendStudent">Send</button>
+                <div id="form_error" class="form__error disabled">All fields must be filled.</div>
+            </form>
+        </div>
+    </div>
+
+    <div class="header_lectionModalWindow" id="header_lectionModalWindow">
+        <div class="box-modal" id="exampleModal_2">
+            <div class="box-modal_close arcticmodal-close">close</div>
+            <form method="post" action="">
+                    <input id="lection_name" type="text" name="yourname" placeholder="Enter Lection">
+                    <input id="lection_link" type="text" name="lection_link" placeholder="Enter Lection Link">
+                    <button type="button" id="sendLection">Send</button>
+                    <div id="form_LectionError" class="form__error disabled">All fields must be filled.</div>
+            </form>
+        </div>
+    </div>
+
+    <div class="header_homeworkModalWindow" id="header_homeworkModalWindow">
+        <div class="box-modal" id="exampleModal_3">
+            <div class="box-modal_close arcticmodal-close">close</div>
+            <form method="post" action="">
+                <input id="homework_name" type="text" name="yourHomework" placeholder="Enter Homework">
+                <input id="homework_link" type="text" name="homework_link" placeholder="Enter Homework Link">
+                <button type="button" id="sendHomework">Send</button>
+                <div id="form_homeworkError" class="form__error disabled">All fields must be filled.</div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="header_newsModalWindow" id="header_newsModalWindow">
+    <div class="box-modal news" id="exampleModal_4">
+        <div class="box-modal_close arcticmodal-close">close</div>
+        <div id="news"></div>
+    </div>
+</div>
+
+
+<div id="content" class="container-fluid">
+</div>
+
+<script id="studentstpl" type="text/template">
+    <table id="table" class="table table-bordered table-responsive-sm ">
+        <thead class="thead-dark">
+        <th scope="col" class="thead__th_colwidth">#</th>
+        <th scope="col" class="thead__th_colwidth" data-name="student">Student</th>
+        <th scope="col" class="thead__th_colwidth" data-name="skype">Skype</th>
+        <th scope="col" class="thead__th_colwidth" data-name="points">Points</th>
+        <% for (let i = 0; i < materials.length; i++) { %>
+        <th scope="col" class="thead__th_colwidth" data-name="<%= materials[i].name %>"><a href="<%= materials[i].link %>"><%- materials[i].name %></a></th>
+        <% } %>
+        </thead>
+        <tbody>
+        <% for (let i = 1; i <= students.length; i++) { %>
+        <tr>
+            <th scope="row" data-name="index_<%= i%>"><%- i %></th>
+            <td data-name="student_<%=i%>"><%- students[i-1].student %></td>
+            <td data-name="student_<%=i%>_skype"><%- students[i-1].skype %></td>
+            <td class="sum" id="student_<%=i%>" data-name="student_<%=i%>_points"><%- students[i-1].points %></td>
+            <% for (let b = 0; b < materials.length; b++) { %>
+                <% if (materials[b].type == 'lection') { %>
+                    <td class="td_padding" data-name="<%= materials[b].name %>_row_<%= i %>"><input class="inputStudent_<%= i%>" type="number" min="0" max="1" placeholder="<%- materials[b].point %>"></td>
+                <% } else {%>
+                     <td class="td_padding" data-name="<%= materials[b].name %>_row_<%= i %>"><input class="inputStudent_<%= i%>" type="number" min="0" max="10" placeholder="<%- materials[b].point %>"></td>
+                <% } %>
+            <% } %>
+        <% } %>
+        </tr>
+        <tr id="deadline">
+            <th scope="row" data-name="index_<%= students.length + 1%>"><%- students.length + 1 %></th>
+            <td colspan="3" class="td_padding deadline" contenteditable="true" data-name="deadline"></td>
+            <% for (let b = 0; b < materials.length; b++) { %>
+            <td class="td_padding deadline" contenteditable="true" data-name="<%= materials[b].name %>_row_<%= students.length + 1 %>"></td>
+            <% } %>
+        </tr>
+        </tbody>
+    </table>
+</script>
+
+<script id="newsTempl" type="text/template">
+    <div class="news_wraper">
+        <h2>News</h2>
+        <ol class="news-list">
+        <% for (let i=0; i < news.length; i++) {%>
+            <li>
+                <h3><a href="<%= news[i].link %>"><%- news[i].title %></a> </h3>
+                <img src="<%= news[i].image %>" alt="news">
+            </li>
+        <% } %>
+        </ol>
+    </div>
+</script>
+<script src="js/result.min.js"></script>
+</body>
+</html>
