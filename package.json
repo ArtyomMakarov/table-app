@@ -29,6 +29,6 @@
     "bootstrap": "^4.3.1",
     "bootstrap-colorpicker": "^3.1.2",
     "jquery": "^3.4.1",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.13"
   }
 }
